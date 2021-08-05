@@ -1,3 +1,5 @@
+// create postData seeds and export seed posts
+
 const { Post } = require('../models');
 
 const postData = [

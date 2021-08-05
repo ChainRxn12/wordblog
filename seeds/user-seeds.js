@@ -1,3 +1,5 @@
+// create user-seeds and export
+
 const sequelize = require('../config/connection');
 const { User, Post } = require('../models');
 

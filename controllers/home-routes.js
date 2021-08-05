@@ -1,3 +1,5 @@
+// create home-routes api and export the router
+
 const router = require('express').Router();
 const sequelize = require('../config/connection');
 const { Post, User, Comment } = require('../models');

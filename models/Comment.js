@@ -1,3 +1,5 @@
+// create model for comments
+
 const { Model, DataTypes } = require('sequelize');
 const sequelize = require('../config/connection');
 
@@ -42,4 +44,4 @@ Comment.init(
 );
 
 
-model.exports = Comment;
+module.exports = Comment;

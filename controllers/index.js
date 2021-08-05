@@ -1,3 +1,5 @@
+// create index routes api and export the router module
+
 const router = require('express').Router();
 
 const apiRoutes = require('./api/');

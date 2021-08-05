@@ -1,3 +1,5 @@
+// create the index for routes and export router
+
 const router = require('express').Router();
 const commentRoutes = require('./comment-routes');
 const postRoutes = require('./post-routes');

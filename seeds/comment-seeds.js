@@ -1,3 +1,5 @@
+// create commentData seeds
+
 const { Comment } = require('../models');
 
 const commentData = [
